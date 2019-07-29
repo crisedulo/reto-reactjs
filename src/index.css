@@ -1,13 +1,67 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.Navegacion {
+ 
+  width: 100%;
+  border: rgb(0, 0, 0) 1px solid;
+  position: flex;
+}
+.Lista .Buscador
+{
+  width: 100%;
+}
+.Lista .Buscador .Elemento
+{
+  width: 35%;
+  margin-left: 5%;
+  font-size:25px;
+  margin-top: 2%;
+}
+
+
+.Lista-General
+{
+  list-style-type: none;
+  text-align: center;
+
+}
+
+ul{
+  list-style-type: none;
+}
+.item-img {
+  background-color: #E9E5E5;
+  background-image: url('/img/houses/3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 220px;
+  position: relative;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.Lista .Carta {
+  width: 250px;
+  height: 450px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  float: left; 
+  margin :20px;   
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+.Lista
+{
+  top: 90px;
+  width: 100%;
+  height: auto;  
+  display: flex;
+  flex-direction: row;
+  justify-content:  space-around;
+  flex-flow: wrap; 
 }
